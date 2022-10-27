@@ -12,9 +12,7 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
-app.get("/ping", (req, res) => {
-  res.status(201).send("holis");
-});
+
 app.use(Router);
 
 export default app;
