@@ -1,7 +1,8 @@
 import * as types from "./types";
 import axios from "axios";
-const URL = "http://localhost:3000";
 import { toast } from "react-toastify";
+
+const URL = import.meta.env.VITE_SERVER;
 
 export const createAnimal = (animal) => {
   return async function (dispatch) {
