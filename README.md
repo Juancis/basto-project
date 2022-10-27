@@ -10,7 +10,7 @@ Está deployado en Vercel con los siguientes links:
 }
 .front: https://basto-project.vercel.app/
 {
-    En el front tenemos todas las opciones anteriores habilitadas, además de poder CREAR (Botón NUEVO ANIMAL) un animal o EDITAR (Icono a la derecha de cada animal).-
+    En el front tenemos todas las opciones anteriores habilitadas, además de poder CREAR (Botón NUEVO ANIMAL) un animal, EDITAR o ELIMINAR (Iconos a la derecha de cada animal).-
 }
 
 En caso de necesitar iniciarlo localmente:
