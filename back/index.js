@@ -1,9 +1,12 @@
 import mongoose from "mongoose";
-const URLdatabase = `mongodb+srv://admin:abc123!@basto-project.3ivq4os.mongodb.net/test`;
 import app from "./server.js";
+import dotenv from "dotenv";
+
+dotenv.config();
+
 try {
   mongoose
-    .connect(`${URLdatabase}`, {
+    .connect(process.env.DATABASE_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       autoIndex: true,
