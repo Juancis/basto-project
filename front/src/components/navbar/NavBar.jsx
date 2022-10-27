@@ -1,7 +1,7 @@
 import Nav from "react-bootstrap/Nav";
 import bastoLogo from "../../assets/basto-logo.png";
-import { IoMdNotifications } from "react-icons/Io";
-import { MdLogout } from "react-icons/Md";
+import { IoMdNotifications } from "react-icons/io";
+import { MdLogout } from "react-icons/md";
 import { Button } from "react-bootstrap";
 
 function ListExample() {

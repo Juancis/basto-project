@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { BiEdit } from "react-icons/Bi";
-import { RiDeleteBin6Line } from "react-icons/Ri";
+import { BiEdit } from "react-icons/bi";
+import { RiDeleteBin6Line } from "react-icons/ri";
 import { useSelector } from "react-redux";
 import { useTable } from "react-table";
 import CreateAndEditAnimal from "./CreateAndEditAnimalModal";
